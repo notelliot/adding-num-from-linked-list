@@ -43,13 +43,6 @@ void add(struct node* head1, struct node* head2, int nums[], int size){
     }
 }
 
-void print(struct node* head){
-    while(head != NULL){
-	printf("%d\n", head->num);
-	head = head->next;
-    }
-}
-
 int main(){
     struct node* head1 = NULL;
     struct node* head2 = NULL;
